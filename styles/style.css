@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: whitesmoke;
+  line-height: 1.6;
+  text-align: justify;
+}
+main {
+  background-color: rgb(245, 247, 250);
+  padding: 40px 20px;
+  border-radius: 10px;
+  min-height: 80vh;
+}
+p {
+  color: rgb(74, 74, 74);
+  font-size: 18px;
+}
+.logo-header {
+  height: 80px; /* Ajustá entre 70 y 90 según tu gusto */
+  width: auto;
+  margin-right: 16px;
+  margin-top: -10px; /* lo sube un poco visualmente */
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.navbar-mio {
+  background-color: whitesmoke;
+  padding: 1rem 2rem;
+  font-family: "Nunito", sans-serif;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid #ccc;
+}
+.navbar-collapse-mio {
+  display: flex;
+  justify-content: center;
+  flex-basis: 100%;
+  align-items: center;
+}
+.navbar-nav-ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ccc;
+}
+.nav-item-mio {
+  margin: 0 10px;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease;
+  border-radius: 4px;
+  list-style-type: none;
+}
+.nav-item-mio:hover {
+  background-color: #e6f2ee;
+}
+.nav-link-mio {
+  padding: 0 15px;
+  color: black;
+  text-decoration: none;
+}
+.nav-link-mio:hover {
+  color: #257d67;
+  text-decoration: underline;
+  transition: 0.3s;
+}
+.nav-fonts {
+  font-size: 30px;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+}
+.navbar .boton-hamburguesa {
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  background-color: transparent;
+}
+.icono-menu {
+  background-image: url(../assets/icono-menu.png);
+  background-size: cover;
+  background-position: center;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  border-radius: 6px;
+}
+.navbar-toggler-icon {
+  display: none;
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+  color: #1e2a38;
+  font-size: 56px;
+  font-weight: 800;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  margin: 50px 0 30px 0;
+}
+h2 {
+  font-family: "Mulish", sans-serif;
+  color: #257d67;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  text-align: center;
+  border-bottom: 1.5px solid #bce3d7;
+  letter-spacing: 0.5px;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #257d67;
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.img-index-1 {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  display: block;
+  margin: 0;
+}
+.article {
+  background-color: rgb(245, 247, 250);
+  padding: 20px 25px;
+  margin-bottom: 20px;
+  border-radius: 0;
+}
+button.btn.btn-primary {
+  font-size: 20px;
+  padding: 12px 30px;
+  background-color: #257d67;
+  border-color: #257d67;
+  font-family: "Mulish", sans-serif;
+}
+.card-proyectos-simulados {
+  min-height: 550px;
+  max-width: 100%;
+  width: 100%;
+  transition: transform 0.3s ease;
+  margin: auto;
+}
+.card-proyectos-simulados:hover {
+  transform: scale(1.02);
+}
+.card-title {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: #1e2a38;
+}
+.btn-mio {
+  all: unset;
+  display: block;
+  width: fit-content;
+  margin: 20px auto 0 auto;
+  padding: 10px 20px;
+  background-color: #257d67;
+  color: white;
+  border-radius: 6px;
+  font-size: 16px;
+  font-family: "Mulish", sans-serif;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+.botton-enviar-simu {
+  font-size: 30px;
+  background-color: rgb(74, 182, 182);
+}
+.footer {
+  width: 100%;
+  background-color: #f8f9fa;
+  padding: 2rem 1rem;
+  text-align: center;
+  margin-top: auto;
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.05);
+}
+.footer .logo-footer {
+  width: 200px;
+  height: auto;
+  margin-top: 1rem;
+}
+.footer .p-footer {
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin-bottom: 0;
+}
+.img-index-1 {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  display: block;
+  margin: 0;
+  border-radius: 0;
+}
+
+/* --- Estilo personalizado para acordeón --- */
+.custom-accordion .accordion-button {
+  background-color: #e6f2ee;
+  color: #1e2a38;
+  font-family: "Mulish", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  box-shadow: none;
+  padding: 15px 20px;
+  transition: background-color 0.3s ease;
+}
+.custom-accordion .accordion-button:hover {
+  background-color: #d0e7df;
+  color: #257d67;
+}
+.custom-accordion .accordion-body {
+  background-color: #ffffff;
+  color: #444;
+  padding: 20px;
+  font-size: 17px;
+  border-top: 1px solid #bce3d7;
+  font-family: "Nunito", sans-serif;
+}
+.custom-accordion .accordion-item {
+  border: 1px solid #cde8df;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+.custom-accordion .accordion-button::after {
+  filter: invert(47%) sepia(17%) saturate(367%) hue-rotate(116deg)
+    brightness(91%) contrast(85%);
+}
+
+/* LO ÚNICO QUE ME QUEDA ES REVISAR LOS HTML QUE ESTEN TODOS BIEN Y VER SI LOS ESTILOS PUEDO HACERLES ALGUN CAMBIO PARA ORDENAR UN POCO MAS Y PONERLE CLASES MAS REALES MAS MIAS */
