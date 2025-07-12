@@ -213,7 +213,7 @@ button.btn.btn-primary {
 }
 
 /* --- Estilo personalizado para acordeón --- */
-.custom-accordion .accordion-button {
+.acordeon-preguntas .boton-pregunta {
   background-color: #e6f2ee;
   color: #1e2a38;
   font-family: "Mulish", sans-serif;
@@ -224,11 +224,13 @@ button.btn.btn-primary {
   padding: 15px 20px;
   transition: background-color 0.3s ease;
 }
-.custom-accordion .accordion-button:hover {
+
+.acordeon-preguntas .boton-pregunta:hover {
   background-color: #d0e7df;
   color: #257d67;
 }
-.custom-accordion .accordion-body {
+
+.acordeon-preguntas .cuerpo-respuesta {
   background-color: #ffffff;
   color: #444;
   padding: 20px;
@@ -236,16 +238,16 @@ button.btn.btn-primary {
   border-top: 1px solid #bce3d7;
   font-family: "Nunito", sans-serif;
 }
-.custom-accordion .accordion-item {
+
+.acordeon-preguntas .pregunta {
   border: 1px solid #cde8df;
   border-radius: 10px;
   margin-bottom: 15px;
   overflow: hidden;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
-.custom-accordion .accordion-button::after {
+
+.acordeon-preguntas .boton-pregunta::after {
   filter: invert(47%) sepia(17%) saturate(367%) hue-rotate(116deg)
     brightness(91%) contrast(85%);
 }
-
-/* LO ÚNICO QUE ME QUEDA ES REVISAR LOS HTML QUE ESTEN TODOS BIEN Y VER SI LOS ESTILOS PUEDO HACERLES ALGUN CAMBIO PARA ORDENAR UN POCO MAS Y PONERLE CLASES MAS REALES MAS MIAS */
