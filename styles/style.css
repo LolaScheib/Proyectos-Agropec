@@ -152,7 +152,10 @@ button.btn.btn-primary {
   max-width: 100%;
   width: 100%;
   transition: transform 0.3s ease;
-  margin: auto;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .card-proyectos-simulados:hover {
   transform: scale(1.02);
@@ -166,6 +169,7 @@ button.btn.btn-primary {
   margin-bottom: 5px;
   color: #1e2a38;
 }
+
 .btn-mio {
   all: unset;
   display: block;
