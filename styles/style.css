@@ -191,17 +191,35 @@ button.btn.btn-primary {
   padding: 2rem 1rem;
   text-align: center;
   margin-top: auto;
-  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 -1px 8px rgba(0, 0, 0, 0.08);
+  border-top: 1px solid #dee2e6;
 }
-.footer .logo-footer {
-  width: 200px;
+
+.footer-logo {
+  width: 160px;
   height: auto;
-  margin-top: 1rem;
+  margin-bottom: 1rem;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
 }
-.footer .p-footer {
-  font-size: 0.9rem;
+
+.footer-logo:hover {
+  opacity: 1;
+}
+
+.footer-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #343a40;
+  font-family: "Nunito", sans-serif;
+  margin-bottom: 0.3rem;
+}
+
+.footer-copy {
+  font-size: 0.85rem;
   color: #6c757d;
-  margin-bottom: 0;
+  font-family: "Nunito", sans-serif;
+  margin: 0;
 }
 .img-index-1 {
   width: 100%;
