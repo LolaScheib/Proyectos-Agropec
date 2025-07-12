@@ -30,20 +30,20 @@ p {
   border-radius: 4px;
 }
 
-.navbar-mio {
+.barra-navegacion {
   background-color: whitesmoke;
   padding: 1rem 2rem;
   font-family: "Nunito", sans-serif;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
   border-bottom: 1px solid #ccc;
 }
-.navbar-collapse-mio {
+.contenido-navegacion {
   display: flex;
   justify-content: center;
   flex-basis: 100%;
   align-items: center;
 }
-.navbar-nav-ul {
+.menu-navegacion {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -52,17 +52,17 @@ p {
   background-color: #f5f5f5;
   border-bottom: 1px solid #ccc;
 }
-.nav-item-mio {
+.item-menu {
   margin: 0 10px;
   padding: 5px 10px;
   transition: background-color 0.3s ease;
   border-radius: 4px;
   list-style-type: none;
 }
-.nav-item-mio:hover {
+.item-menu:hover {
   background-color: #e6f2ee;
 }
-.nav-link-mio {
+.link-menu {
   padding: 0 15px;
   color: black;
   text-decoration: none;
