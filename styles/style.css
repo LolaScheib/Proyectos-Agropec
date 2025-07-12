@@ -195,6 +195,13 @@ button.btn.btn-primary {
   border-top: 1px solid #dee2e6;
 }
 
+.footer-title {
+  font-size: 0.85rem;
+  color: #6c757d;
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+}
+
 .footer-logo {
   width: 160px;
   height: auto;
@@ -205,14 +212,6 @@ button.btn.btn-primary {
 
 .footer-logo:hover {
   opacity: 1;
-}
-
-.footer-title {
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: #343a40;
-  font-family: "Nunito", sans-serif;
-  margin-bottom: 0.3rem;
 }
 
 .footer-copy {
